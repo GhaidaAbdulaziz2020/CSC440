@@ -14,16 +14,33 @@
 
 <html>
 <head>
+
 	<!-- The title shows up in the browser toolbar -->
-	<title>Dog's Homepage</title>
+	<title >Dog's Homepage</title>
 </head>
 
-<body>
+<body bgcolor="#E9FFFF">
+
 	<!--A header for the page-->
-	<h1>Dog D. Dog</h1>
+	<header>
+	<h1 style="color:#006968;">Dog D. Dog</h1>
+	<header>
 
 	<!--My photo-->
-	<img id="photo" src="http://i.imgur.com/L34Fib6.jpg">	
+	<style>
+	img {
+  border: 1px solid #ddd;
+  border-radius: 400px;
+  padding: 5px;
+
+}
+
+
+
+</style>
+		
+	<IMG id="photo" SRC="http://i.imgur.com/L34Fib6.jpg" width="300" height="300" align="middle">
+
 
 	<!--Divs and spans can be used to logically and structurally organize your page
 		Here we use divs to separate different sections of the page: about, courses, interests and pet information
@@ -143,9 +160,9 @@
 
 		/* h2 descendants of .section class: set a background color for all h2 text in sections */
 		.section h2 {
-			background-color: rgb(255,255,220);
+			background-color: #368785;
 			font-family: Georgia;
-			color: maroon;
+			color: white;
 		}
 
 		/* #courses id with <a> tag selector:
@@ -165,7 +182,7 @@
 
 		/* span tag selector: color all span tags red */
 		span {
-			color: red;
+			color: #6bedea;
 		}
 
 		/* span with .serious class: set font to Impact */
@@ -183,25 +200,26 @@
 
 		/* Table Style! */
 		/* Put borders around the cells */
-		th, td { border: solid 1px black; }
+	
+		th, td { 
+		border: solid 1px black; }
 		/* Collapse or 'merge' the borders into each other*/
 		table { border-collapse: collapse; }
 
 		/* Color every other row (tr) light grey */
 		tr:nth-child(even) {
-			background:rgb(220,220,220);
+			background-color:#A1CBCB;;
 		}
 
 		/* Color green the text of currentlytaking rows */
 		tr.currentlytaking {
-			color:green;
+			color:Black;
 		}
 
 		/* Align and style the "For Credit" and "Listener" cells */
 		td.enrollheader {
 			background-color:white;
 			text-align:center;
-			font-weight:bold;
 		}
 
 	</style>
